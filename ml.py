@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 x=np.random.rand(100,1)
 
 
-y=2*x+0.0005
+y=2*x+0.0006
 
 
 
