@@ -7,8 +7,6 @@ import gradio as gr
 from torchvision.transforms import transforms
 
 
-# model=models.resnet18(pretrained=True)
-# model.fc=nn.Linear(model.fc.in_features,10)
 t=transforms.Compose([  transforms.ToTensor(),
                         transforms.Normalize((0.5,0.5,0.5),(0.5,0.5,0.5)),
                         transforms.RandomHorizontalFlip(0.5),
